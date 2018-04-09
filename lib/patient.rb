@@ -35,7 +35,7 @@ class Patient
 
   def add_appointment(appointment)
     @appointments << appointment
-    appointment.patient = sel
+    appointment.patient = self
   end
 
   def appointments
